@@ -9,9 +9,9 @@ cmake for simple application
 ### Linux
 ```
 # generate makefile
-cmake --source . --build ./build
+cmake --source ./src --build ./build
 # or
-cmake -S . -B ./build
+cmake -S ./src -B ./build
 
 # build program
 cmake --build ./build
